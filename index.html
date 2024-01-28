@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Focus Timer 2.0</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src=".\src\main.js" defer></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="timer-wrapper">
+            <section id="timer">
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+            </section>
+            <section id="controls">
+                <button id="play" class="ph ph-play-circle" data-action="play">
+                </button >
+
+                <button id="stop"class="ph ph-stop-circle able" data-action="play">
+                </button>
+
+                <button id="plus"class="ph ph-plus-circle" data-action="plus">
+                </button >
+                
+                <button id="minus"class="ph ph-minus-circle" data-action="minus">
+                </button>
+            </section>
+        </div>
+        <div class="sounds-wrapper">
+            <section id="sounds">
+                <button id="music1" class="ph ph-tree" data-action="music1">
+                </button>
+
+                <button id="music2" class="ph ph-cloud-rain" data-action="music2">
+                </button>
+                
+                <button id="music3" class="ph ph-storefront" data-action="music3">
+                </button>
+                
+                <button id="music4" class="ph ph-fire" data-action="music4">
+                </button>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
